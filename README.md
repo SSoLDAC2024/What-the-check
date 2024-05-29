@@ -34,7 +34,7 @@ A first step is to acquire the data, which consists of both building information
 - [IFC OpenShell](https://ifcopenshell.org/)
 
 ### Regulatory Texts
-- ...
+- [Example Regulation: Flemish Access Norm](datasets/flemish_access_example_rules.pdf)
 
 ## Tools Needed
 - Code editor
