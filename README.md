@@ -4,6 +4,9 @@
 - Ruben Verstraeten
 - Jeroen Werbrouck
 
+## Number of people per team: 
+4
+
 ## Challenge Description
 Two major trends in the architecture, engineering, and construction industry are the increasing complexity of regulations, which focus on a building's performance, and the digital evolution, which is boosting efficiency and productivity. One potential of the latter could be to (semi)automate the compliance check of digital architectural models against building regulations or even requirements in general. This asks for a fresh look at digital building models and formalisation strategies for requirements that are usually written in natural language.
 
