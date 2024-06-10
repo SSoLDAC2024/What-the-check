@@ -29,7 +29,7 @@ A first step is to acquire the data, which consists of both building information
 ### DMN
 - [Specifications](https://www.omg.org/dmn/)
 - [KIE DMN editor](https://sandbox.kie.org/) or [DMN-BPMN.io](https://demo.bpmn.io/dmn)
-- [Local DMN Engine: KIE incubator] (https://github.com/apache/incubator-kie-tools/releases/tag/0.32.0) (other: [cDMN](https://cdmn.readthedocs.io/en/latest/), [Camunda](https://camunda.com/dmn/), [Redhat](https://access.redhat.com/documentation/en-us/red_hat_decision_manager/7.3/html/designing_a_decision_service_using_dmn_models/dmn-execution-con), ...)
+- [Local DMN Engine: KIE incubator](https://github.com/apache/incubator-kie-tools/releases/tag/0.32.0) (other: [cDMN](https://cdmn.readthedocs.io/en/latest/), [Camunda](https://camunda.com/dmn/), [Redhat](https://access.redhat.com/documentation/en-us/red_hat_decision_manager/7.3/html/designing_a_decision_service_using_dmn_models/dmn-execution-con), ...)
 - [dmn-js](https://bpmn.io/toolkit/dmn-js/)
 
 ### Python Libraries
