@@ -1,0 +1,82 @@
+@prefix ns1: <ex:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/OurBuilding#Door-Exterior-Double:Door-Exterior-Double:391745> a <beo:Door> ;
+    rdfs:label "Door-Exterior-Double:Door-Exterior-Double:391745" ;
+    ns1:width 2.3016e+03 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:398822> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:398822" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:398909> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:398909" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:399431> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:399431" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:399501> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:399501" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:399643> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:399643" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:399925> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:399925" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2032mm:400081> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2032mm:400081" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:358185> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:358185" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:358480> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:358480" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:359949> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:359949" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:377662> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:377662" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:378185> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:378185" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:378243> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:378243" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:378321> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:378321" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:378401> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:378401" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:401415> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:401415" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#M_Single-Flush:0915x2134mm:401572> a <beo:Door> ;
+    rdfs:label "M_Single-Flush:0915 x 2134mm:401572" ;
+    ns1:width 9.15e+02 .
+
+<https://example.org/OurBuilding#PrecastStair:Stair:381758> a <beo:Stair> .
+
+<https://example.org/OurBuilding#PrecastStair:Stair:383689> a <beo:Stair> .
+
+<https://example.org/OurBuilding#PrecastStair:Stair:397996> a <beo:Stair> .
+

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Precast Stair:Stair:381758",
+        "RiserHeight": 175,
+        "ThreadLength": 240,
+        "NumberOfRailings": 2
+    },
+    {
+        "name": "Precast Stair:Stair:383689",
+        "RiserHeight": 178,
+        "ThreadLength": 240,
+        "NumberOfRailings": 2
+    },
+    {
+        "name": "Precast Stair:Stair:397996",
+        "RiserHeight": 107,
+        "ThreadLength": 240,
+        "NumberOfRailings": 2
+    }
+]
