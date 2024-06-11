@@ -26,5 +26,44 @@
                 </attribute>
             </requirements>
         </specification>
+        <specification name="Stairs may not be too steep" ifcVersion="IFC2X3" identifier="VTV Art.20 §2">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCSTAIR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property dataType="IFCPOSITIVELENGTHMEASURE" cardinality="required" instructions="Riser Height should be between 0.18 and 0.20">
+                    <propertySet>
+                        <simpleValue>Pset_StairCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>RiserHeight</simpleValue>
+                    </baseName>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="0.18" fixed="false" />
+                            <xs:maxInclusive value="0.2" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </property>
+                <property dataType="IFCPOSITIVELENGTHMEASURE" cardinality="required" instructions="Tread Length should be between 0.23 and 0.30">
+                    <propertySet>
+                        <simpleValue>Pset_StairCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>TreadLength</simpleValue>
+                    </baseName>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="0.23" fixed="false" />
+                            <xs:maxInclusive value="0.3" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </property>
+            </requirements>
+        </specification>
     </specifications>
 </ids>
