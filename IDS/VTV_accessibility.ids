@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/0.9.7/ids.xsd">
+    <info>
+        <title>Accessibility Data verification</title>
+        <purpose>Checking the Flemish accessibility regulation</purpose>
+    </info>
+    <specifications>
+        <specification name="Each door should have a width of at least 1.05m." ifcVersion="IFC2X3" identifier="VTV Art.22 §2">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>OverallWidth</simpleValue>
+                    </name>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="1050" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </attribute>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>
