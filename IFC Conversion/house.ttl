@@ -3,113 +3,95 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Door-Exterior-Double_Door-Exterior-Double_391745 a ex:IfcDoor,
-        beo:Door ;
+ex:Door-Exterior-Double_Door-Exterior-Double_391745 a beo:Door ;
     rdfs:label "Door-Exterior-Double:Door-Exterior-Double:391745" ;
-    ex:height 2.8016e+03 ;
-    ex:width 2.3016e+03 .
+    ex:height 2802 ;
+    ex:width 2302 .
 
-ex:M_Single-Flush_0915x2032mm_398822 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_398822 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:398822" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2032mm_398909 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_398909 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:398909" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2032mm_399431 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_399431 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399431" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2032mm_399501 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_399501 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399501" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2032mm_399643 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_399643 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399643" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2032mm_399925 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_399925 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399925" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2032mm_400081 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2032mm_400081 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:400081" ;
-    ex:height 2.032e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2032 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_358185 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_358185 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:358185" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_358480 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_358480 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:358480" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_359949 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_359949 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:359949" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_377662 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_377662 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:377662" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_378185 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_378185 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378185" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_378243 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_378243 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378243" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_378321 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_378321 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378321" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_378401 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_378401 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378401" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_401415 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_401415 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:401415" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
-ex:M_Single-Flush_0915x2134mm_401572 a ex:IfcDoor,
-        beo:Door ;
+ex:M_Single-Flush_0915x2134mm_401572 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:401572" ;
-    ex:height 2.134e+03 ;
-    ex:width 9.15e+02 .
+    ex:height 2134 ;
+    ex:width 915 .
 
 ex:PrecastStair_Stair_381758 a beo:Stair ;
     rdfs:label "Precast Stair:Stair:381758" ;
