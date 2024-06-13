@@ -5,48 +5,6 @@
         <purpose>Checking the Flemish accessibility regulation</purpose>
     </info>
     <specifications>
-        <specification name="Each door should have a height of at least 2.09m." ifcVersion="IFC2X3" identifier="VTV Art.22 §1">
-            <applicability minOccurs="0" maxOccurs="unbounded">
-                <entity>
-                    <name>
-                        <simpleValue>IFCDOOR</simpleValue>
-                    </name>
-                </entity>
-            </applicability>
-            <requirements>
-                <attribute cardinality="required" instructions="Art.22§1 Doors should be at least 2.09m high.">
-                    <name>
-                        <simpleValue>OverallHeight</simpleValue>
-                    </name>
-                    <value>
-                        <xs:restriction base="xs:length">
-                            <xs:minInclusive value="2090" fixed="false" />
-                        </xs:restriction>
-                    </value>
-                </attribute>
-            </requirements>
-        </specification>
-        <specification name="Each door should have a width of at least 1.05m." ifcVersion="IFC2X3" identifier="VTV Art.22 §2">
-            <applicability minOccurs="0" maxOccurs="unbounded">
-                <entity>
-                    <name>
-                        <simpleValue>IFCDOOR</simpleValue>
-                    </name>
-                </entity>
-            </applicability>
-            <requirements>
-                <attribute cardinality="required" instructions="Art.22§2 Doors should be at least 1.05m wide.">
-                    <name>
-                        <simpleValue>OverallWidth</simpleValue>
-                    </name>
-                    <value>
-                        <xs:restriction base="xs:length">
-                            <xs:minInclusive value="1050" fixed="false" />
-                        </xs:restriction>
-                    </value>
-                </attribute>
-            </requirements>
-        </specification>
         <specification name="Stairs may not be too steep" ifcVersion="IFC2X3" identifier="VTV Art.20 §2+§3">
             <applicability minOccurs="0" maxOccurs="unbounded">
                 <entity>
@@ -95,6 +53,48 @@
                         </xs:restriction>
                     </value>
                 </property>
+            </requirements>
+        </specification>
+        <specification name="Each door should have a height of at least 2.09m." ifcVersion="IFC2X3" identifier="VTV Art.22 §1">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required" instructions="Art.22§1 Doors should be at least 2.09m high.">
+                    <name>
+                        <simpleValue>OverallHeight</simpleValue>
+                    </name>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="2090" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="Each door should have a width of at least 1.05m." ifcVersion="IFC2X3" identifier="VTV Art.22 §2">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required" instructions="Art.22§2 Doors should be at least 1.05m wide.">
+                    <name>
+                        <simpleValue>OverallWidth</simpleValue>
+                    </name>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="1050" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </attribute>
             </requirements>
         </specification>
     </specifications>
