@@ -1,0 +1,36 @@
+# Shacl for the Door
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <https://example.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix beo: <https://w3id.org/beo#> .
+
+ex:DoorShape
+    a sh:NodeShape ;
+    sh:targetClass beo:Door ;
+    sh:property [
+        sh:path ex:width ;
+        sh:datatype xsd:double ;
+        sh:minCount 1 ;
+        sh:maxExclusive 1050 ;
+sh:message"No fulilling the rule";
+    ] .
+# Shacl for Stairs 
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <https://example.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix beo: <https://w3id.org/beo#> .
+
+ex:StairShape
+    a sh:NodeShape ;
+    sh:targetClass beo:Stair ;
+    sh:property [
+        sh:path ex:NumberOfRailings ;
+        sh:datatype xsd:integer ;
+        sh:minCount 1 ;
+sh:message"Not enough railings";
+    ] .
+
