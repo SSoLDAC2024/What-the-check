@@ -5,28 +5,7 @@
         <purpose>Checking the Flemish accessibility regulation</purpose>
     </info>
     <specifications>
-        <specification name="Each door should have a width of at least 1.05m." ifcVersion="IFC2X3" identifier="VTV Art.22 §2">
-            <applicability minOccurs="0" maxOccurs="unbounded">
-                <entity>
-                    <name>
-                        <simpleValue>IFCDOOR</simpleValue>
-                    </name>
-                </entity>
-            </applicability>
-            <requirements>
-                <attribute cardinality="required">
-                    <name>
-                        <simpleValue>OverallWidth</simpleValue>
-                    </name>
-                    <value>
-                        <xs:restriction base="xs:length">
-                            <xs:minInclusive value="1050" fixed="false" />
-                        </xs:restriction>
-                    </value>
-                </attribute>
-            </requirements>
-        </specification>
-        <specification name="Stairs may not be too steep" ifcVersion="IFC2X3" identifier="VTV Art.20 §2">
+        <specification name="Stairs may not be too steep" ifcVersion="IFC2X3" identifier="VTV Art.20 §2+§3">
             <applicability minOccurs="0" maxOccurs="unbounded">
                 <entity>
                     <name>
@@ -35,7 +14,20 @@
                 </entity>
             </applicability>
             <requirements>
-                <property dataType="IFCPOSITIVELENGTHMEASURE" cardinality="required" instructions="Riser Height should be between 0.18 and 0.20">
+                <property dataType="IFCCOUNTMEASURE" cardinality="required" instructions="Art.20§2 The amount of risers can be at most 17">
+                    <propertySet>
+                        <simpleValue>Pset_StairCommon</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>NumberOfRiser</simpleValue>
+                    </baseName>
+                    <value>
+                        <xs:restriction base="xs:integer">
+                            <xs:maxInclusive value="17" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </property>
+                <property dataType="IFCPOSITIVELENGTHMEASURE" cardinality="required" instructions="Art.20§3 Riser Height should be at most 18cm">
                     <propertySet>
                         <simpleValue>Pset_StairCommon</simpleValue>
                     </propertySet>
@@ -44,12 +36,11 @@
                     </baseName>
                     <value>
                         <xs:restriction base="xs:length">
-                            <xs:minInclusive value="0.18" fixed="false" />
-                            <xs:maxInclusive value="0.2" fixed="false" />
+                            <xs:maxInclusive value="0.18" fixed="false" />
                         </xs:restriction>
                     </value>
                 </property>
-                <property dataType="IFCPOSITIVELENGTHMEASURE" cardinality="required" instructions="Tread Length should be between 0.23 and 0.30">
+                <property dataType="IFCPOSITIVELENGTHMEASURE" cardinality="required" instructions="Art.20§3 Tread Length should be at least 23cm">
                     <propertySet>
                         <simpleValue>Pset_StairCommon</simpleValue>
                     </propertySet>
@@ -59,10 +50,51 @@
                     <value>
                         <xs:restriction base="xs:length">
                             <xs:minInclusive value="0.23" fixed="false" />
-                            <xs:maxInclusive value="0.3" fixed="false" />
                         </xs:restriction>
                     </value>
                 </property>
+            </requirements>
+        </specification>
+        <specification name="Each door should have a height of at least 2.09m." ifcVersion="IFC2X3" identifier="VTV Art.22 §1">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required" instructions="Art.22§1 Doors should be at least 2.09m high.">
+                    <name>
+                        <simpleValue>OverallHeight</simpleValue>
+                    </name>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="2090" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </attribute>
+            </requirements>
+        </specification>
+        <specification name="Each door should have a width of at least 1.05m." ifcVersion="IFC2X3" identifier="VTV Art.22 §2">
+            <applicability minOccurs="0" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCDOOR</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <attribute cardinality="required" instructions="Art.22§2 Doors should be at least 1.05m wide.">
+                    <name>
+                        <simpleValue>OverallWidth</simpleValue>
+                    </name>
+                    <value>
+                        <xs:restriction base="xs:length">
+                            <xs:minInclusive value="1050" fixed="false" />
+                        </xs:restriction>
+                    </value>
+                </attribute>
             </requirements>
         </specification>
     </specifications>

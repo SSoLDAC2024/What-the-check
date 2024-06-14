@@ -1,0 +1,220 @@
+@prefix ex: <https://example.org#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_401415 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_358480 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399431 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399925 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:PrecastStair_Stair_383689 ;
+            sh:resultMessage "Art.20§2 The amount of risers can be at most 17" ;
+            sh:resultPath ex:NumberOfRiser ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxExclusiveConstraintComponent ;
+            sh:sourceShape [ sh:datatype xsd:integer ;
+                    sh:maxExclusive 18 ;
+                    sh:message "Art.20§2 The amount of risers can be at most 17" ;
+                    sh:path ex:NumberOfRiser ] ;
+            sh:value 18 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_378185 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_359949 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_378321 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399643 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_358185 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_398909 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399431 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_398822 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_398909 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399643 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_400081 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_400081 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399501 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_378243 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_378401 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399925 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_399501 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_401572 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2032mm_398822 ;
+            sh:resultMessage "Art.22§1 Doors should be at least 2.09m high." ;
+            sh:resultPath ex:height ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b8 ;
+            sh:value 2032 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode ex:M_Single-Flush_0915x2134mm_377662 ;
+            sh:resultMessage "Art.22§2 Doors should be at least 1.05m wide." ;
+            sh:resultPath ex:width ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape _:n96e9e61a7620480e8dd0e9992a4a61b0b3 ;
+            sh:value 915 ] .
+
+_:n96e9e61a7620480e8dd0e9992a4a61b0b8 sh:datatype xsd:integer ;
+    sh:message "Art.22§1 Doors should be at least 2.09m high." ;
+    sh:minInclusive 2090 ;
+    sh:path ex:height .
+
+_:n96e9e61a7620480e8dd0e9992a4a61b0b3 sh:datatype xsd:integer ;
+    sh:message "Art.22§2 Doors should be at least 1.05m wide." ;
+    sh:minInclusive 1050 ;
+    sh:path ex:width .
+

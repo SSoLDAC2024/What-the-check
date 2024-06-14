@@ -1,0 +1,486 @@
+<!--
+    IfcTester - IDS based model auditing
+    Copyright (C) 2022 Dion Moult <dion@thinkmoult.com>
+
+    This file is part of IfcTester.
+
+    IfcTester is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    IfcTester is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with IfcTester.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html lang=>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="foobaro">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Inconsolata|Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --green: #97cc64;
+            --light-green: #b6cca1;
+            --red: #fb5a3e;
+            --light-red: #fbb4a8;
+        }
+        body { font-family: 'Arial', sans-serif; padding: 10px 40px; }
+        section { padding: 15px; border-radius: 5px; border: 1px solid #eee; margin-bottom: 15px; }
+        section>h2 { margin-top: 0px; }
+        span.time { color: #999; font-style: italic; float: right; }
+        span.step-time { float: right; color: #555; font-size: 0.8em; font-style: italic; }
+        span.item { padding: 5px; border-radius: 5px; margin-right: 5px; border: 1px solid #eee; }
+        span.item.pass, span.item.fail { color: #FFF; font-weight: bold; border: 0px; }
+        p.fail { background-color: #fb5a3e; padding: 5px; border-radius: 5px; color: #fff; }
+        p.unspecified { background-color: #994f00; padding: 5px; border-radius: 5px; color: #fff; }
+        p.skipped { background-color: #8b8d8f; padding: 5px; border-radius: 5px; color: #fff; }
+        p.description { background-color: #eee; border-radius: 5px; padding: 20px; margin-left: auto; margin-right: auto; display: inline-block; font-weight: bold;}
+        li { padding: 10px; font-family: monospace; }
+        li.pass { background-color: var(--light-green); color: #333; }
+        li.fail { background-color: var(--light-red); color: #900; }
+        li.unspecified { background-color: #ffd37f; color: #a30; }
+        li.skipped { background-color: #f5f5f5; color: #333; }
+        li p { margin-bottom: 0px; }
+        footer { color: #999; font-size: 0.8em; }
+        header { text-align: center; }
+        hr { margin: 20px; margin-left: 0px; margin-right: 0px;  border: none; border-top: 1px solid #ccc; }
+        summary { display: flex; cursor: pointer; }
+        summary::-webkit-details-marker { display: none; }
+        * {box-sizing:border-box}
+        .container { width: 100%; background-color: #ddd; border-radius: 5px}
+        .percent { text-align: left; padding-top: 5px; padding-left: 5px; padding-bottom: 5px; color: white; border-radius: 5px; white-space: nowrap; }
+        .pass { background-color: var(--green); }
+        .fail { background-color: var(--red); }
+        table { width: 100%; border-bottom: 2px solid var(--red); border-spacing: 0; border-radius: 5px; margin-top: 10px; }
+        th, td { padding: 5px; }
+        thead>tr { background-color: var(--red); font-weight: bold; color: #fff; }
+        tbody tr { border-bottom: 1px solid var(--red); }
+        tbody tr:nth-child(odd) { background-color: rgba(1, 1, 1, 0.05); }
+        tbody tr:nth-child(even) { background-color: rgba(1, 1, 1, 0.1); }
+        tbody tr:hover { background-color: rgba(0, 0, 0, 0); }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Accessibility Data verification</h1>
+        <p><strong>2024-06-13 07:51:09</strong></p>
+    </header>
+    <h2>Summary</h2>
+    <div class="container">
+        <div class="fail percent" style="width: 44%;">44%</div>
+    </div>
+    <p>
+        <span class="item fail">Fail</span>
+        <span class="item">
+            Specifications passed: <strong>0</strong> / <strong>3</strong>
+        </span>
+        <span class="item">
+            Requirements passed: <strong>2</strong> / <strong>5</strong>
+        </span>
+        <span class="item">
+            Checks passed: <strong>20</strong> / <strong>45</strong>
+        </span>
+    </p>
+    <hr>
+    <section>
+        <h2>Stairs may not be too steep</h2>
+
+        <div class="container">
+            <div class="fail percent" style="width: 88%;">88%</div>
+        </div>
+        <p>
+            <span class="item fail">Fail</span>
+            <span class="item">
+                Checks passed: <strong>8</strong> / <strong>9</strong>
+            </span>
+            <span class="item">
+                Elements passed: <strong>2</strong> / <strong>3</strong>
+            </span>
+        </p>
+        <p>
+            <strong>Applicability</strong>
+        </p>
+        <ul>
+            <li>All IFCSTAIR data</li>
+        </ul>
+        <p>
+            <strong>Requirements</strong>
+        </p>
+        <ol>
+            <li class="fail">
+                <details>
+                    <summary>
+                        NumberOfRiser data shall be {&#x27;maxInclusive&#x27;: 17} and in the dataset Pset_StairCommon
+                    </summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>PredefinedType</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Warning</th>
+                                <th>GlobalId</th>
+                                <th>Tag</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>IfcStair</td>
+                                <td>Precast Stair:Precast Stair</td>
+                                <td>Precast Stair:Stair:383689</td>
+                                <td>None</td>
+                                <td>The property value &quot;18.0&quot; does not match the requirements</td>
+                                <td>1qnuHei2H9IuA8Q46m1Dkm</td>
+                                <td>383689</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+            </li>
+            <li class="pass">
+                <details>
+                    <summary>
+                        RiserHeight data shall be {&#x27;maxInclusive&#x27;: 0.18} and in the dataset Pset_StairCommon
+                    </summary>
+                </details>
+            </li>
+            <li class="pass">
+                <details>
+                    <summary>
+                        TreadLength data shall be {&#x27;minInclusive&#x27;: 0.23} and in the dataset Pset_StairCommon
+                    </summary>
+                </details>
+            </li>
+        </ol>
+    </section>
+    <section>
+        <h2>Each door should have a height of at least 2.09m.</h2>
+
+        <div class="container">
+            <div class="fail percent" style="width: 61%;">61%</div>
+        </div>
+        <p>
+            <span class="item fail">Fail</span>
+            <span class="item">
+                Checks passed: <strong>11</strong> / <strong>18</strong>
+            </span>
+            <span class="item">
+                Elements passed: <strong>11</strong> / <strong>18</strong>
+            </span>
+        </p>
+        <p>
+            <strong>Applicability</strong>
+        </p>
+        <ul>
+            <li>All IFCDOOR data</li>
+        </ul>
+        <p>
+            <strong>Requirements</strong>
+        </p>
+        <ol>
+            <li class="fail">
+                <details>
+                    <summary>
+                        The OverallHeight shall be {&#x27;minInclusive&#x27;: 2090}
+                    </summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>PredefinedType</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Warning</th>
+                                <th>GlobalId</th>
+                                <th>Tag</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:398822</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999993&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpM7U</td>
+                                <td>398822</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:398909</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999993&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpM85</td>
+                                <td>398909</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399431</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999993&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMn$</td>
+                                <td>399431</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399501</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999993&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMor</td>
+                                <td>399501</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399643</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999993&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMqZ</td>
+                                <td>399643</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399925</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999993&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMuD</td>
+                                <td>399925</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:400081</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;2031.9999999999995&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMxf</td>
+                                <td>400081</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+            </li>
+        </ol>
+    </section>
+    <section>
+        <h2>Each door should have a width of at least 1.05m.</h2>
+
+        <div class="container">
+            <div class="fail percent" style="width: 5%;">5%</div>
+        </div>
+        <p>
+            <span class="item fail">Fail</span>
+            <span class="item">
+                Checks passed: <strong>1</strong> / <strong>18</strong>
+            </span>
+            <span class="item">
+                Elements passed: <strong>1</strong> / <strong>18</strong>
+            </span>
+        </p>
+        <p>
+            <strong>Applicability</strong>
+        </p>
+        <ul>
+            <li>All IFCDOOR data</li>
+        </ul>
+        <p>
+            <strong>Requirements</strong>
+        </p>
+        <ol>
+            <li class="fail">
+                <details>
+                    <summary>
+                        The OverallWidth shall be {&#x27;minInclusive&#x27;: 1050}
+                    </summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>PredefinedType</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Warning</th>
+                                <th>GlobalId</th>
+                                <th>Tag</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:358185</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2RvDSwe691wAJhcTMot35k</td>
+                                <td>358185</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:358480</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2RvDSwe691wAJhcTMot3uN</td>
+                                <td>358480</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:359949</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;915.0000000000003&quot; does not match the requirement</td>
+                                <td>2KmF_$QvDCf9UqoOSc8rqL</td>
+                                <td>359949</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:377662</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;915.0000000000001&quot; does not match the requirement</td>
+                                <td>2T1wqivHnBkwBL1I2GMTkx</td>
+                                <td>377662</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:378185</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>0unmp_RnH2xRyaySWnFp7b</td>
+                                <td>378185</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:378243</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>0unmp_RnH2xRyaySWnFp4l</td>
+                                <td>378243</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:378321</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;915.0000000000003&quot; does not match the requirement</td>
+                                <td>0unmp_RnH2xRyaySWnFp5z</td>
+                                <td>378321</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:378401</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;915.0000000000001&quot; does not match the requirement</td>
+                                <td>0unmp_RnH2xRyaySWnFpAD</td>
+                                <td>378401</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:398822</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpM7U</td>
+                                <td>398822</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:398909</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpM85</td>
+                                <td>398909</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399431</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMn$</td>
+                                <td>399431</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399501</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMor</td>
+                                <td>399501</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399643</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMqZ</td>
+                                <td>399643</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:399925</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999997&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMuD</td>
+                                <td>399925</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2032mm</td>
+                                <td>M_Single-Flush:0915 x 2032mm:400081</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;914.9999999999999&quot; does not match the requirement</td>
+                                <td>2wcvH1AOD8fgqG2PBvpMxf</td>
+                                <td>400081</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:401415</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;915.0000000000001&quot; does not match the requirement</td>
+                                <td>0NmrDAyPTAmBm2cW6XAIzK</td>
+                                <td>401415</td>
+                            </tr>
+                            <tr>
+                                <td>IfcDoor</td>
+                                <td>M_Single-Flush:0915 x 2134mm</td>
+                                <td>M_Single-Flush:0915 x 2134mm:401572</td>
+                                <td>None</td>
+                                <td>The attribute value &quot;915.0&quot; does not match the requirement</td>
+                                <td>0NmrDAyPTAmBm2cW6XAI$t</td>
+                                <td>401572</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+            </li>
+        </ol>
+    </section>
+    <hr>
+    <footer>
+        <p>
+            Report by the <a href="https://blenderbim.org/">BlenderBIM Add-on</a> and <a href="http://ifcopenshell.org/">IfcOpenShell</a>.
+        </p>
+    </footer>
+</body>
+</html>
