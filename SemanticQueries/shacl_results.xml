@@ -3,301 +3,301 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:sh="http://www.w3.org/ns/shacl#"
 >
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b26">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab12">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
     <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_400081"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#height"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b28">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab15">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378243"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399643"/>
+    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#height"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b21">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399431"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b12">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab26">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
     <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399431"/>
     <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#height"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b2">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_358185"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationReport"/>
+    <sh:conforms rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:conforms>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab2"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab4"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab5"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab6"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab8"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab9"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab10"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab11"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab12"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab13"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab15"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab16"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab17"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab18"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab19"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab20"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab21"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab22"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab23"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab24"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab25"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab26"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab27"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab28"/>
+    <sh:result rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab29"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b18">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378321"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b11">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_358480"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b13">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399925"/>
-    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#height"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3">
-    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <sh:message>Art.22§2 Doors should be at least 1.05m wide.</sh:message>
-    <sh:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050</sh:minInclusive>
-    <sh:path rdf:resource="https://example.org#width"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b17">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_359949"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b14">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#PrecastStair_Stair_383689"/>
-    <sh:resultMessage>Art.20§2 The amount of risers can be at most 17</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#NumberOfRiser"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MaxExclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b15"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b22">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab4">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
     <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_398822"/>
     <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#width"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b1">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationReport"/>
-    <sh:conforms rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:conforms>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b2"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b4"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b5"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b6"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b7"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b9"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b10"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b11"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b12"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b13"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b14"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b16"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b17"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b18"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b19"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b20"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b21"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b22"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b23"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b24"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b25"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b26"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b27"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b28"/>
-    <sh:result rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b29"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b25">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_400081"/>
-    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#height"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b4">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399925"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b27">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399501"/>
-    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#height"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b6">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_401572"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b5">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399501"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8">
-    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <sh:message>Art.22§1 Doors should be at least 2.09m high.</sh:message>
-    <sh:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2090</sh:minInclusive>
-    <sh:path rdf:resource="https://example.org#height"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b20">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_398909"/>
-    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#height"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b10">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_401415"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b15">
-    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    <sh:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</sh:maxExclusive>
-    <sh:message>Art.20§2 The amount of risers can be at most 17</sh:message>
-    <sh:path rdf:resource="https://example.org#NumberOfRiser"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b19">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399643"/>
-    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#height"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b24">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399643"/>
-    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
-    <sh:resultPath rdf:resource="https://example.org#width"/>
-    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
-    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
-    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b29">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab10">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
     <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378401"/>
     <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#width"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b9">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab29">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_377662"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399501"/>
     <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#width"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b16">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab20">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
-    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378185"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399643"/>
     <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#width"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b7">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab27">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_358185"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378243"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab23">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_359949"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_400081"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab24">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
     <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_398822"/>
     <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#height"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b8"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b23">
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab16">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_377662"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab18">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399501"/>
+    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#height"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab21">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399431"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab28">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378185"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_401572"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab6">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399925"/>
+    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#height"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab25">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_399925"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab11">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
     <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_398909"/>
     <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
     <sh:resultPath rdf:resource="https://example.org#width"/>
     <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
     <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
-    <sh:sourceShape rdf:nodeID="n96e9e61a7620480e8dd0e9992a4a61b0b3"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
     <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab17">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_401415"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab13">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#PrecastStair_Stair_383689"/>
+    <sh:resultMessage>Art.20§2 The amount of risers can be at most 17</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#NumberOfRiser"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MaxExclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab14"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab22">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_358480"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab14">
+    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <sh:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</sh:maxExclusive>
+    <sh:message>Art.20§2 The amount of risers can be at most 17</sh:message>
+    <sh:path rdf:resource="https://example.org#NumberOfRiser"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab19">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2032mm_398909"/>
+    <sh:resultMessage>Art.22§1 Doors should be at least 2.09m high.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#height"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2032</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3">
+    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <sh:message>Art.22§2 Doors should be at least 1.05m wide.</sh:message>
+    <sh:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050</sh:minInclusive>
+    <sh:path rdf:resource="https://example.org#width"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab5">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#ValidationResult"/>
+    <sh:focusNode rdf:resource="https://example.org#M_Single-Flush_0915x2134mm_378321"/>
+    <sh:resultMessage>Art.22§2 Doors should be at least 1.05m wide.</sh:resultMessage>
+    <sh:resultPath rdf:resource="https://example.org#width"/>
+    <sh:resultSeverity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+    <sh:sourceConstraintComponent rdf:resource="http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent"/>
+    <sh:sourceShape rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab3"/>
+    <sh:value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</sh:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nc577f3cc6bf8405b8021cfa702eb96bab7">
+    <sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <sh:message>Art.22§1 Doors should be at least 2.09m high.</sh:message>
+    <sh:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2090</sh:minInclusive>
+    <sh:path rdf:resource="https://example.org#height"/>
   </rdf:Description>
 </rdf:RDF>

@@ -5,96 +5,115 @@
 
 ex:Door-Exterior-Double_Door-Exterior-Double_391745 a beo:Door ;
     rdfs:label "Door-Exterior-Double:Door-Exterior-Double:391745" ;
+    ex:ID "29SIGHAPP89xJBQO7N36K0" ;
     ex:height 2802 ;
     ex:width 2302 .
 
 ex:M_Single-Flush_0915x2032mm_398822 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:398822" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpM7U" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2032mm_398909 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:398909" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpM85" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2032mm_399431 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399431" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpMn$" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2032mm_399501 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399501" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpMor" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2032mm_399643 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399643" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpMqZ" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2032mm_399925 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:399925" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpMuD" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2032mm_400081 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2032mm:400081" ;
+    ex:ID "2wcvH1AOD8fgqG2PBvpMxf" ;
     ex:height 2032 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_358185 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:358185" ;
+    ex:ID "2RvDSwe691wAJhcTMot35k" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_358480 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:358480" ;
+    ex:ID "2RvDSwe691wAJhcTMot3uN" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_359949 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:359949" ;
+    ex:ID "2KmF_$QvDCf9UqoOSc8rqL" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_377662 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:377662" ;
+    ex:ID "2T1wqivHnBkwBL1I2GMTkx" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_378185 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378185" ;
+    ex:ID "0unmp_RnH2xRyaySWnFp7b" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_378243 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378243" ;
+    ex:ID "0unmp_RnH2xRyaySWnFp4l" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_378321 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378321" ;
+    ex:ID "0unmp_RnH2xRyaySWnFp5z" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_378401 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:378401" ;
+    ex:ID "0unmp_RnH2xRyaySWnFpAD" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_401415 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:401415" ;
+    ex:ID "0NmrDAyPTAmBm2cW6XAIzK" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:M_Single-Flush_0915x2134mm_401572 a beo:Door ;
     rdfs:label "M_Single-Flush:0915 x 2134mm:401572" ;
+    ex:ID "0NmrDAyPTAmBm2cW6XAI$t" ;
     ex:height 2134 ;
     ex:width 915 .
 
 ex:PrecastStair_Stair_381758 a beo:Stair ;
     rdfs:label "Precast Stair:Stair:381758" ;
+    ex:ID "2N1$wSskz2bAjjtl_KLXOJ" ;
     ex:NumberOfRailings 2 ;
     ex:NumberOfRiser 16 ;
     ex:RiserHeight 175 ;
@@ -102,6 +121,7 @@ ex:PrecastStair_Stair_381758 a beo:Stair ;
 
 ex:PrecastStair_Stair_383689 a beo:Stair ;
     rdfs:label "Precast Stair:Stair:383689" ;
+    ex:ID "1qnuHei2H9IuA8Q46m1Dkm" ;
     ex:NumberOfRailings 2 ;
     ex:NumberOfRiser 18 ;
     ex:RiserHeight 178 ;
@@ -109,6 +129,7 @@ ex:PrecastStair_Stair_383689 a beo:Stair ;
 
 ex:PrecastStair_Stair_397996 a beo:Stair ;
     rdfs:label "Precast Stair:Stair:397996" ;
+    ex:ID "06M_CRzcPB5P5z43s0BDRD" ;
     ex:NumberOfRailings 2 ;
     ex:NumberOfRiser 3 ;
     ex:RiserHeight 107 ;
