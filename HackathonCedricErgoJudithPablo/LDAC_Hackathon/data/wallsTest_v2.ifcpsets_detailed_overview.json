@@ -1,0 +1,1832 @@
+{
+"IfcWindow": {
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"Pset_WindowCommon": {
+"Reference": [
+"Window"
+]
+},
+"AC_Pset_W_Pentagon_Fix_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Wall Contour Line": [
+"Both Sides"
+],
+"Wall Inset Bottom at": [
+"Current Story"
+],
+"Type of the Sill": [
+"Timber Sill"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Sash Style": [
+"No Mullions"
+],
+"IFC Operation (ifc_optypestr)": [
+"Single"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Casing": [
+"Off"
+],
+"Shutter": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Grill Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"UI Dialog Title": [
+"Special Window Settings"
+],
+"Parametric Level": [
+"High"
+],
+"Opening Type Main": [
+"Fix"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Wall Inset Sizes": [
+"Automatic"
+],
+"Board in Polygonal Walls": [
+"Parallel to Window"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Opening Direction": [
+"Inside"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Turn In Thickness": [
+"Original"
+],
+"Hatch Orientation": [
+"Original"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"BaseQuantities": {},
+"AC_Pset_W_Trapezoid_Fix_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Wall Contour Line": [
+"Both Sides"
+],
+"Wall Inset Bottom at": [
+"Current Story"
+],
+"Type of the Sill": [
+"Timber Sill"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Sash Style": [
+"No Mullions"
+],
+"IFC Operation (ifc_optypestr)": [
+"Single"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Shutter": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Casing": [
+"Off"
+],
+"Grill Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"UI Dialog Title": [
+"Special Window Settings"
+],
+"Parametric Level": [
+"High"
+],
+"Opening Type Main": [
+"Fix"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Wall Inset Sizes": [
+"Automatic"
+],
+"Board in Polygonal Walls": [
+"Parallel to Window"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Opening Direction": [
+"Inside"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+},
+"AC_Pset_Skylight_Top_Hung_13": {
+"Show Projection (gs_symb_show_projection_to)": [
+"Entire Element"
+],
+"Symbol Style": [
+"Detailed"
+],
+"Add-on Type": [
+"Skylight"
+],
+"Group Type": [
+"Default Objects"
+],
+"Floor Plan Display (gs_symb_display_option)": [
+"Symbolic View"
+],
+"Slope Mode": [
+"\u00b0"
+],
+"Upper Edge Type (gs_edge_upper_type)": [
+"Horizontal"
+],
+"IFC Operation (ifc_optypestr)": [
+"Not Defined"
+],
+"Lower Edge Type (gs_edge_lower_type)": [
+"Vertical"
+],
+"Object Weight Unit": [
+"kg"
+]
+},
+"AC_Pset_W_M_Curved_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Wall Contour Line": [
+"Both Sides"
+],
+"Wall Inset Bottom at": [
+"Current Story"
+],
+"Type of the Sill": [
+"Timber Sill"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Sash Style": [
+"No Mullions"
+],
+"IFC Operation (ifc_optypestr)": [
+"Single"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Shutter": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Casing": [
+"Off"
+],
+"UI Dialog Title": [
+"Metal Window Settings"
+],
+"Grill Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"Opening Type": [
+"Fix"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Wall Inset Sizes": [
+"Automatic"
+],
+"Board in Polygonal Walls": [
+"Parallel to Window"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Opening Direction": [
+"Outside"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+},
+"AC_Pset_W_Glass_Block_Wall_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Wall Contour Line": [
+"Both Sides"
+],
+"Wall Inset Bottom at": [
+"Current Story"
+],
+"Type of the Sill": [
+"Timber Sill"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Casing": [
+"Off"
+],
+"Shutter": [
+"Off"
+],
+"IFC Operation (ifc_optypestr)": [
+"Other"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Wall Inset Sizes": [
+"Automatic"
+],
+"Board in Polygonal Walls": [
+"Parallel to Window"
+],
+"Settings": [
+"Settings"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Demolition / New construction (gs_DemolitionOrNew)": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Parameter Input Type": [
+"Block number and Block size"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Opening Direction": [
+"Outside"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+},
+"AC_Pset_W2_Horizontal_Slide_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Wall Contour Line": [
+"Both Sides"
+],
+"Wall Inset Bottom at": [
+"Current Story"
+],
+"Type of the Sill": [
+"Timber Sill"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Number from": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Sash Style": [
+"No Mullions"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Right Corner Connection Type": [
+"Frame"
+],
+"Corner Connection Type": [
+"Frame"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Shutter": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Casing": [
+"Off"
+],
+"UI Dialog Title": [
+"Sliding Window Settings"
+],
+"IFC Operation (ifc_optypestr)": [
+"Double Vertical"
+],
+"Grill Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Group Type": [
+"Default Objects"
+],
+"Parametric Level": [
+"High"
+],
+"Typical Sizes": [
+"Custom Size"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Wall Inset Sizes": [
+"Automatic"
+],
+"Board in Polygonal Walls": [
+"Parallel to Window"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Opening Direction": [
+"Inside"
+],
+"Opening Type Upper": [
+"Horizontal Sliding"
+],
+"Opening Type Lower": [
+"Horizontal Sliding"
+],
+"Demolition / New construction": [
+"None"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+}
+},
+"IfcWallStandardCase": {
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"Pset_WallCommon": {
+"Reference": [
+"150",
+"315"
+]
+},
+"BaseQuantities": {}
+},
+"IfcStair": {
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"AC_Pset_Stair_2": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Format": [
+"Number x Rise = Run Height"
+],
+"Orientation (gs_numb_orient)": [
+"Readable"
+],
+"Orientation (gs_riserun_orient)": [
+"Readable"
+],
+"UI Pages": [
+"2D Symbol Types"
+],
+"Break Mark Type": [
+"Straight"
+],
+"2D Symbol Type": [
+"Type 11",
+"Type 18"
+],
+"Arrowhead Style": [
+"Style 1"
+],
+"Walking Line Start Symbol (gs_StartEndStyle)": [
+"Style 1"
+],
+"Custom Text": [
+"Custom Text"
+],
+"Font Type": [
+"Arial"
+],
+"Orientation (gs_updown_orient)": [
+"Parallel with Walking Line"
+],
+"Up and Down Text": [
+"none"
+],
+"Rail Symbol Type": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Down Text": [
+"DN"
+],
+"Object Weight Unit": [
+"kg"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"AC_Pset_Stair_1": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Format": [
+"Number x Rise = Run Height"
+],
+"Orientation (gs_numb_orient)": [
+"Readable"
+],
+"Orientation (gs_riserun_orient)": [
+"Readable"
+],
+"UI Pages": [
+"2D Symbol Types"
+],
+"Break Mark Type": [
+"Straight"
+],
+"2D Symbol Type": [
+"Type 11"
+],
+"Arrowhead Style": [
+"Style 1"
+],
+"Walking Line Start Symbol (gs_StartEndStyle)": [
+"Style 1"
+],
+"Custom Text": [
+"Custom Text"
+],
+"Font Type": [
+"Arial"
+],
+"Orientation (gs_updown_orient)": [
+"Parallel with Walking Line"
+],
+"Up and Down Text": [
+"none"
+],
+"Rail Symbol Type": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Down Text": [
+"DN"
+],
+"Object Weight Unit": [
+"kg"
+]
+}
+},
+"IfcSpace": {
+"AC_Pset_Zone_Stamp_1_13": {
+"4.": [
+"Flooring"
+],
+"Text (GrossAreaText)": [
+"A:"
+],
+"Text (areatext)": [
+"A:"
+],
+"Text (ceiltext)": [
+"H:"
+],
+"Text (VolumeText)": [
+"V:"
+],
+"Text (peritext)": [
+"P:"
+],
+"Text Style (zonastyle)": [
+"Bold"
+],
+"3.": [
+"Measured Area"
+],
+"5.": [
+"Ceiling Height"
+],
+"TextFont 1": [
+"Arial Western"
+],
+"Text Style (ceilhstyle)": [
+"Plain"
+],
+"Text Style (peristyle)": [
+"Plain"
+],
+"Text Style (zonostyle)": [
+"Plain"
+],
+"Text Style (VolumeStyle)": [
+"Plain"
+],
+"Text Style (areastyle)": [
+"Plain"
+],
+"Text Style (codestyle)": [
+"Plain"
+],
+"Text Style (GrossAreaStyle)": [
+"Plain"
+],
+"Details Justification": [
+"Centered"
+],
+"1.": [
+"Zone Name"
+],
+"Font Type (VolumeFont)": [
+"Arial"
+],
+"Font Type (perifont)": [
+"Arial"
+],
+"Font Type (ceilhfont)": [
+"Arial"
+],
+"Font Type (codefont)": [
+"Arial"
+],
+"Font Type (GrossAreaFont)": [
+"Arial"
+],
+"Font Type (areafont)": [
+"Arial"
+],
+"Font Type (zonofont)": [
+"Arial"
+],
+"8.": [
+"None"
+],
+"6.": [
+"None"
+],
+"7.": [
+"None"
+],
+"Floor Type": [
+"<floor type>"
+],
+"Height Type": [
+"Value"
+],
+"2.": [
+"Zone No."
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Topmost",
+"Single"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"BaseQuantities": {}
+},
+"IfcSlab": {
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"Pset_SlabCommon": {
+"Reference": [
+"Roof",
+"Floor"
+]
+},
+"BaseQuantities": {}
+},
+"IfcRailing": {
+"AC_Pset_Rail_Solid_Frame_Filled_13": {
+"3D (gs_detlevel_3D)": [
+"Detailed"
+],
+"Rail and Parameter Input Type (ptyp)": [
+"Straight"
+],
+"Frame Style (gs_frameStyle)": [
+"Rectangular"
+],
+"Group Type": [
+"Others"
+],
+"Rail Orientation Method (rom)": [
+"Vertical"
+],
+"Rail Measurement Method (rmm)": [
+"Vertical"
+],
+"Object Weight Unit": [
+"kg"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"AC_Pset_Railing_Vertical_13": {
+"3D": [
+"Detailed"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+]
+}
+},
+"IfcProject": {
+"GSPset_TimeStamp": {}
+},
+"IfcPlate": {
+"ePset_Simplebim": {
+"Assembly Level": [
+"Leaf"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+}
+},
+"IfcMember": {
+"ePset_Simplebim": {
+"Assembly Level": [
+"Leaf"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+}
+},
+"IfcFurnishingElement": {
+"AC_Pset_Lcd_monitor_13": {
+"3D Detail Level": [
+"Detailed"
+],
+"Screen Ratio": [
+"Custom"
+],
+"Group Type": [
+"Electric Facilities"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"AC_Pset_Office_Chair_01_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Symbol Type (gs_SymbolType)": [
+"Circle"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Group Type": [
+"Furniture"
+]
+},
+"AC_Pset_Book_Shelf_01_13": {
+"3D Detail Level (gs_detlevel_3D)": [
+"Detailed"
+],
+"Leg Style (gs_leg_type)": [
+"Style 4"
+],
+"2D Symbol": [
+"Style 1"
+],
+"Cornice Style (gs_cornice_type)": [
+"Style 1"
+],
+"Side Overhang": [
+"None"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Group Type": [
+"Furniture"
+]
+},
+"AC_Pset_Office_Cabinet_02_13": {
+"3D Detail Level": [
+"Detailed"
+],
+"Knob Type on Upper Cabinet": [
+"Style 2"
+],
+"Knob Type on Drawers": [
+"Style 4"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Group Type": [
+"Furniture"
+]
+},
+"AC_Pset_Office_Table_13": {
+"3D Detail Level (gs_detlevel_3D)": [
+"Detailed"
+],
+"Leg Style (gs_leg_type)": [
+"Double T-Leg"
+],
+"Tabletop Edge Style (gs_tabletop_edge_style)": [
+"Rectangular"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Group Type": [
+"Furniture"
+],
+"Tabletop Style (gs_tabletop_style)": [
+"Rectangle"
+]
+},
+"AC_Pset_Office_Desk_L2_13": {
+"3D Detail Level (gs_detlevel_3D)": [
+"Detailed"
+],
+"Leg Style": [
+"Style 3"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Group Type": [
+"Furniture"
+]
+}
+},
+"IfcDoor": {
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"Pset_DoorCommon": {
+"Reference": [
+"D1 Entrance St 13",
+"D1 13",
+"D1 2Sidelight 13",
+"D2 Entrance St 13",
+"D2 13"
+]
+},
+"AC_Pset_D2_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Casing (gs_doorwindow_trim)": [
+"Both Sides"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Opening Type (gs_optype)": [
+"Side Hung"
+],
+"Opening Type (gs_optype2)": [
+"Side Hung"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Door Panel Style": [
+"No Mullions"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Door Sill (gs_sill_type)": [
+"Off"
+],
+"Wall Contour Line": [
+"Off"
+],
+"Shutter": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Threshold": [
+"Off"
+],
+"Placement Method": [
+"Default"
+],
+"Mullion Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"IFC Operation (ifc_optypestr)": [
+"Double Door Single Swing"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Location as": [
+"Custom"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Frame Style": [
+"Style 3"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Opening Handle": [
+"None"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"BaseQuantities": {},
+"AC_Pset_D1_2Sidelight_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Casing (gs_doorwindow_trim)": [
+"Both Sides"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Number from": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Opening Type (gs_optype)": [
+"Side Hung"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Door Panel Style": [
+"No Mullions"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Threshold": [
+"Off"
+],
+"Door Sill (gs_sill_type)": [
+"Off"
+],
+"Shutter": [
+"Off"
+],
+"Wall Contour Line": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Placement Method": [
+"Default"
+],
+"Mullion Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"Opening Type (gs_optype2)": [
+"Fix"
+],
+"Opening Type (gs_optype3)": [
+"Fix"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Location as": [
+"Custom"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Frame Style": [
+"Style 3"
+],
+"Sidelights": [
+"Style 1"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"IFC Operation (ifc_optypestr)": [
+"Single Door Single Swing"
+],
+"Opening Handle": [
+"None"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+},
+"AC_Pset_D1_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Casing (gs_doorwindow_trim)": [
+"Both Sides"
+],
+"Shutter Position": [
+"Both Sides"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Opening Type": [
+"Side Hung"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Door Panel Style": [
+"No Mullions"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Threshold": [
+"Off"
+],
+"Door Sill (gs_sill_type)": [
+"Off"
+],
+"Shutter": [
+"Off"
+],
+"Wall Contour Line": [
+"Off"
+],
+"Placement Method": [
+"Default"
+],
+"Mullion Position": [
+"Throughout"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Location as": [
+"Custom"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Frame Style": [
+"Style 3"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"IFC Operation (ifc_optypestr)": [
+"Single Door Single Swing"
+],
+"Opening Handle": [
+"None"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Turn In Thickness": [
+"Original"
+],
+"Hatch Orientation": [
+"Original"
+]
+},
+"AC_Pset_D1_Entrance_St_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Opening Type": [
+"Side Hung"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Door Sill Type": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Shutter (gs_doorwindow_shutter)": [
+"Off"
+],
+"Casing (gs_doorwindow_trim)": [
+"Off"
+],
+"Wall Contour Line": [
+"Off"
+],
+"Threshold": [
+"Off"
+],
+"Placement Method": [
+"Default"
+],
+"Shutter Position": [
+"Right Side"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Location as": [
+"Custom"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Frame Style": [
+"Style 3"
+],
+"Door Panel (gs_door_typ)": [
+"Style 1"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"IFC Operation (ifc_optypestr)": [
+"Single Door Single Swing"
+],
+"Opening Handle": [
+"None"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+},
+"AC_Pset_D2_Entrance_St_13": {
+"2D Detail Level": [
+"Scale Sensitive"
+],
+"Number from": [
+"Reference Side"
+],
+"Edited Wall Side": [
+"Reference Side"
+],
+"Cavity Side": [
+"Both"
+],
+"Opening Type (gs_optype2)": [
+"Side Hung"
+],
+"Opening Type (gs_optype)": [
+"Side Hung"
+],
+"Edited Jamb Side": [
+"Edit Both Jambs"
+],
+"3D Detail Level": [
+"Detailed"
+],
+"Closure Sub Tabpage Selector": [
+"Closure Settings"
+],
+"Brick Sill 3D Detail Level": [
+"Simple"
+],
+"Wall Contour Line": [
+"Off"
+],
+"Door Sill Type": [
+"Off"
+],
+"Masonry Arch (gs_masonry_arch)": [
+"Off"
+],
+"Shutter (gs_doorwindow_shutter)": [
+"Off"
+],
+"Casing (gs_doorwindow_trim)": [
+"Off"
+],
+"Threshold": [
+"Off"
+],
+"Placement Method": [
+"Default"
+],
+"Shutter Position": [
+"Right Side"
+],
+"Masonry Arch Type (gs_masonry_arch_structure)": [
+"Stucco Arch"
+],
+"Parametric Level": [
+"High"
+],
+"IFC Operation (ifc_optypestr)": [
+"Double Door Single Swing"
+],
+"Edited Skin Number": [
+"1. Skin"
+],
+"Location as": [
+"Custom"
+],
+"Casing Type Outside": [
+"Rectangular"
+],
+"Casing Type Inside": [
+"Rectangular"
+],
+"Frame Style": [
+"Style 3"
+],
+"Door Panel (gs_door_typ)": [
+"Style 1"
+],
+"Shutter Style": [
+"Decorative"
+],
+"Reveal and Closure Type": [
+"No Reveal"
+],
+"Reveal Type": [
+"No Reveal"
+],
+"Inner Reveal Type": [
+"No Reveal"
+],
+"Show Reveal on Symbol": [
+"Always"
+],
+"Opening Handle": [
+"None"
+],
+"Demolition / New construction": [
+"None"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+],
+"Frame Element Joinery": [
+"Butt Joint"
+],
+"Hatch Orientation": [
+"Original"
+],
+"Turn In Thickness": [
+"Original"
+]
+}
+},
+"IfcDiscreteAccessory": {
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"AC_Pset_Solar_Shade_Straight_13": {
+"3D": [
+"Detailed"
+],
+"Louvre Style": [
+"Style 3"
+],
+"Louvre Position": [
+"Horizontal"
+],
+"Group Type": [
+"Others"
+],
+"Object Weight Unit": [
+"kg"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+}
+},
+"IfcCurtainWall": {
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"Pset_CurtainWallCommon": {
+"Reference": [
+"CW 1"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Topmost"
+]
+},
+"BaseQuantities": {}
+},
+"IfcColumn": {
+"Pset_ColumnCommon": {
+"Reference": [
+"200X200"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+},
+"BaseQuantities": {}
+},
+"IfcBuildingStorey": {
+"BaseQuantities": {}
+},
+"IfcBuildingElementProxy": {
+"AC_Pset_Tree_Deciduous_09_13": {
+"Crown Type": [
+"Detailed"
+],
+"3D (gs_detlevel_3D)": [
+"Detailed"
+],
+"Text Orientation on Symbol (typeTextRotation)": [
+"Always Horizontal"
+],
+"Font Type": [
+"Arial"
+],
+"Type (FM_Type)": [
+"Others"
+],
+"Type (type)": [
+"Type 1"
+]
+},
+"ePset_Simplebim": {
+"Assembly Level": [
+"Single"
+]
+},
+"AC_Pset_RenovationAndPhasing": {
+"Renovation Status": [
+"Existing"
+]
+}
+}
+}
