@@ -1,0 +1,382 @@
+[
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.15,
+        "guid": "1eSQ1WbIv8TBKkiQleh$Ph"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.12,
+        "guid": "36mYT4owDBTPw2$NIIhoRX"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "11xhENfhL4TOSlnjWOeCm$"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1Fv8H3XKH3sgb0W9zbe0yV"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "38hkuTYdT3xes3fpNo2Uoh"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "2rwL9Z_$n1CQKhprA9kklh"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "3CJFwWXEH6PgOnZQTTd_xY"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0drWFQL$n34QJtiNX6mzCJ"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1827JDCUPE_BYT9iZoR7Az"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.12,
+        "guid": "2ruRol84v0fA8xIw5rwjx2"
+    },
+    {
+        "name": "Default value",
+        "Thermaltransmittance": 0.1,
+        "guid": "2sBXjUAyj63Q2eAhy1Tx9_"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1sSWLX5rrCcQ2FFTC_OS0K"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1$qZZ0vxn2KBThylNOUHWo"
+    },
+    {
+        "name": "INT 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "2QCgEjIxT1vBxXBXm41zFU"
+    },
+    {
+        "name": "INT 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1srqPSCIX12A4TC6i3HKrO"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "2AF3VTNp1FtBaewG2l3Xtk"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1cZHouYp11pBmfhQW_rCqA"
+    },
+    {
+        "name": "EXT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "3z_XrGUabF4hcdztH2RJzL"
+    },
+    {
+        "name": "EXT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1tb$y3Amb7HRKayV_OuY01"
+    },
+    {
+        "name": "EXT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "2efpQ4y$jB3B7neQnSfufs"
+    },
+    {
+        "name": "EXT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "3XjaVkeqT64RAtZMmgWQge"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1eOsy20Mj0iOjBk_x$G7y4"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "3Y7mUf695DrB$Lfva9r5ex"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "2ECjt7_tPEqPpPthDWXc$T"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0LFNsj0kH5PQpVKRxySQPJ"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0RJ1aCHKz0yOYQkjkImJsg"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "2_SEa7RVXDev10MFPKjOPP"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1Sz6nbhwr4i8JCkUqM9lwT"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0TGgAGrovFwPWol7AMoXg_"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0bjLCzxNXCde7hOBCYE164"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1iPpfzB1b8BQmYfZkc0Qf$"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1_4ghExW95GgA3ctugXBND"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "2r0My6ezz858SQkIbgkx$a"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1FoYeLNSj35OseyDld95e0"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.15,
+        "guid": "14RA6D$Vb20QeEymFao44r"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "2cNR1heDnDYgnVGpBl8uxw"
+    },
+    {
+        "name": "ex1",
+        "Thermaltransmittance": 0.12,
+        "guid": "3k33TCpkDEMu5vlRofJbVS"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "3qnWFHjF99JQfjaZqTMnwi"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "3lPyC4Xcn6cB5xjxhcJKUG"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.12,
+        "guid": "32LEd8okXE9fQDmiwAiWwv"
+    },
+    {
+        "name": "Default value",
+        "Thermaltransmittance": 0.1,
+        "guid": "3C$xa4L6f2_9_FsOkD3TkQ"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "2jFSBU91fDpuSdwzO96otV"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0t8qBdv8X6hR2tMYdq_lmQ"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "3ynpdbi4fBxwV7Ykpervdf"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "39tYyt$1LFxAS2CzH2aQuT"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "01fzxa8SL3ZR_uDz$7YrOK"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1KXle4Af92mhCGSlEbkLKS"
+    },
+    {
+        "name": "INT 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "28mIYGPR9EEA4P$22e$M0k"
+    },
+    {
+        "name": "INT 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0MundV6dn6lPZ33rvL2rlj"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0_5GsEX$z4QvcXzBfAufJV"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0PDcbyDj9Bc8rC5CPMZrOv"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0_Whz2pQ9AIe0i_Rpvf0ni"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "37MT36Grn10fgc1duWnS59"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "2AhQUEmi19yvMd135lEmp7"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1XGJW0HyH1NOL7p1WHGzyy"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0WK3ROOyjEDwP3Rhes7FQW"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1TJj43XiXCS9hb_mvkS$NC"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1Rmn6CZsn9VuQKMFtrwBLV"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "1CORGOgKn5cRb$jVohqWAI"
+    },
+    {
+        "name": "INT 2",
+        "Thermaltransmittance": 0.1,
+        "guid": "0HPIhoo8T0I9xzBGJsHDBj"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "3OYl8OHzv7RR0FE326faEf"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0O7egXHZb7quDdUQJscvla"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "1UBdmtdYD6EgdmjMGRm5XI"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "2EH_osT_L5sAoioWFOsv1A"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "1egdWqIF18QO1VjHFP7ULs"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.15,
+        "guid": "0DHZi3TmPEqRGEv$I_rgMq"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "2Zb9cCDT5E_Bl7hDUvprWx"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "04g4Hxd0T9lAvPGTmX1QkM"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "3qKyo4XZbFsB7zUKvs$Tgd"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "2pwVDkwzj9iOAyDCOyiAGH"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "24TQp2z6n22PbZJcjc2Tqy"
+    },
+    {
+        "name": "EXT 3",
+        "Thermaltransmittance": 0.1,
+        "guid": "1HAbZPRCj2dvL8fJYnydon"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1HaIufEeDFT8tAeOOd6DSk"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "0BGiQsFOr4xBif8aVEc1e8"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "29qKSjI9r5bREx9pibk7Pj"
+    },
+    {
+        "name": "EX 1",
+        "Thermaltransmittance": 0.1,
+        "guid": "1XD1jbncz0iO$xZNYDBSR8"
+    }
+]
